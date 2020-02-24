@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import csv
 import sys
 import xml.etree.ElementTree as ET
@@ -5,6 +7,7 @@ import xml.etree.ElementTree as ET
 infile = sys.argv[1]
 outbrd = sys.argv[2]
 outvars = sys.argv[3]
+col_count = int(sys.argv[4])
 
 tree = ET.parse(infile)
 root = tree.getroot()
@@ -32,12 +35,10 @@ for successMessage in root.iter('successMessage'):
 
 tree.write(outbrd)
 
-
-# f = open(outvars,"w")
-# for k, v in var_phrase_map.items():
-#     s = str(k)+"\t"+str(v)+"\n"
-#     b = f.write(s)
-
-
-
-
+f = open(outvars,"w")
+for k, v in var_phrase_map.items():
+    s = str(k)
+    for i in range(col_count - 1): # -1 to exclude the variable column
+        s = s+"\t"+str(v)
+    s = s+"\n"
+    b = f.write(s)
