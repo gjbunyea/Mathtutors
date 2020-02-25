@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="7.02 HTML" label="7.02 Slope-Intercept Form" description="Student must identify and define terms of an expression." tutor_type="javascript" save_state="true">
+  <Problems>
+    <Problem name="faded2" label="Caterer" description="Caterer" tutor_flag="tutor" problem_file="Problem1HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Define-Product-Coefficient-and-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="faded3" label="Shirts" description="Shirts" tutor_flag="tutor" problem_file="Problem2HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Identify-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Coefficient-and-Variable-Expression" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="faded4" label="Raymond" description="Raymond" tutor_flag="tutor" problem_file="Problem3HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Coefficient-and-Variable-Expression" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem2" label="Broadway" description="Broadway" tutor_flag="tutor" problem_file="Problem4HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Define-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Product-Coefficient-and-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem3" label="Lee" description="Lee" tutor_flag="tutor" problem_file="Problem5HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Identify-Coefficient-and-Variable-Expression" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem4" label="Highrise" description="Highrise" tutor_flag="tutor" problem_file="Problem6HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Product-Coefficient-and-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem5" label="Manager" description="Manager" tutor_flag="tutor" problem_file="Problem7HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Define-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Product-Coefficient-and-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem6" label="Liz" description="Liz" tutor_flag="tutor" problem_file="Problem8HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Identify-Coefficient-and-Variable-Expression" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem7" label="Alexis" description="Alexis" tutor_flag="tutor" problem_file="Problem9HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Identify-Coefficient-and-Variable-Expression" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Identify-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="Problem8" label="Rob" description="Rob" tutor_flag="tutor" problem_file="Problem10HTML.brd" student_interface="slope_intercept2.html">
+      <Skills>
+        <Skill name="Define-Product-Coefficient-and-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Coefficient" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" occurrences="1"/>
+        <Skill name="Define-Constant-Term" category="Slope-Intercept-Form" occurrences="1"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="7.02 HTML" label="7.02 HTML Slope-Intercept Form" description="Student must identify and define terms of an expression." status="active" picture="mathtutor_7.02_full.png" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="faded2" position="1" role="0"/>
+        <Problem name="faded3" position="2" role="0"/>
+        <Problem name="faded4" position="3" role="0"/>
+        <Problem name="Problem2" position="4" role="0"/>
+        <Problem name="Problem3" position="5" role="0"/>
+        <Problem name="Problem4" position="6" role="0"/>
+        <Problem name="Problem5" position="7" role="0"/>
+        <Problem name="Problem6" position="8" role="0"/>
+        <Problem name="Problem7" position="9" role="0"/>
+        <Problem name="Problem8" position="10" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="Define-Coefficient" category="Slope-Intercept-Form" label="Define Coefficient" description="Define Coefficient" position="0" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Constant-Term" category="Slope-Intercept-Form" label="Define Constant Term" description="Define Constant Term" position="1" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Product-Coefficient-and-Variable" category="Slope-Intercept-Form" label="Define Product Coefficient And Variable" description="Define Product Coefficient And Variable" position="2" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" label="Define Sum Two Terms" description="Define Sum Two Terms" position="3" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" label="Define Variable" description="Define Variable" position="4" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Coefficient" category="Slope-Intercept-Form" label="Identify Coefficient" description="Identify Coefficient" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Coefficient-and-Variable-Expression" category="Slope-Intercept-Form" label="Identify Coefficient And Variable Expression" description="Identify Coefficient And Variable Expression" position="6" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Constant-Term" category="Slope-Intercept-Form" label="Identify Constant Term" description="Identify Constant Term" position="7" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Sum-Two-Terms" category="Slope-Intercept-Form" label="Identify Sum Two Terms" description="Identify Sum Two Terms" position="8" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Variable" category="Slope-Intercept-Form" label="Identify Variable" description="Identify Variable" position="9" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="7.02_Demo" label="7.02 Slope-Intercept Form Demo" description="Demo: Student must identify and define terms of an expression." status="test" picture="mathtutor_7.02_full.png" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="faded2" position="1" role="0"/>
+        <Problem name="faded3" position="2" role="0"/>
+        <Problem name="faded4" position="3" role="0"/>
+        <Problem name="Problem2" position="4" role="0"/>
+        <Problem name="Problem3" position="5" role="0"/>
+        <Problem name="Problem4" position="6" role="0"/>
+        <Problem name="Problem5" position="7" role="0"/>
+        <Problem name="Problem6" position="8" role="0"/>
+        <Problem name="Problem7" position="9" role="0"/>
+        <Problem name="Problem8" position="10" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="Define-Coefficient" category="Slope-Intercept-Form" label="Define Coefficient" description="Define Coefficient" position="0" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Constant-Term" category="Slope-Intercept-Form" label="Define Constant Term" description="Define Constant Term" position="1" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Product-Coefficient-and-Variable" category="Slope-Intercept-Form" label="Define Product Coefficient And Variable" description="Define Product Coefficient And Variable" position="2" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Sum-Two-Terms" category="Slope-Intercept-Form" label="Define Sum Two Terms" description="Define Sum Two Terms" position="3" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Define-Variable" category="Slope-Intercept-Form" label="Define Variable" description="Define Variable" position="4" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Coefficient" category="Slope-Intercept-Form" label="Identify Coefficient" description="Identify Coefficient" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Coefficient-and-Variable-Expression" category="Slope-Intercept-Form" label="Identify Coefficient And Variable Expression" description="Identify Coefficient And Variable Expression" position="6" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Constant-Term" category="Slope-Intercept-Form" label="Identify Constant Term" description="Identify Constant Term" position="7" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Sum-Two-Terms" category="Slope-Intercept-Form" label="Identify Sum Two Terms" description="Identify Sum Two Terms" position="8" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-Variable" category="Slope-Intercept-Form" label="Identify Variable" description="Identify Variable" position="9" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="faded1.brd" label="Faded1.Brd" description="Faded1.Brd" asset_locator="FinalBRDs/faded1.brd"/>
+    <Asset name="7.02_interface.swf" label="7.02 Interface.Swf" description="7.02 Interface.Swf" asset_locator="Flash/7.02_interface.swf"/>
+    <Asset name="faded2.brd" label="Faded2.Brd" description="Faded2.Brd" asset_locator="FinalBRDs/faded2.brd"/>
+    <Asset name="faded3.brd" label="Faded3.Brd" description="Faded3.Brd" asset_locator="FinalBRDs/faded3.brd"/>
+    <Asset name="Problem1.brd" label="Problem1.Brd" description="Problem1.Brd" asset_locator="FinalBRDs/Problem1.brd"/>
+    <Asset name="Problem2.brd" label="Problem2.Brd" description="Problem2.Brd" asset_locator="FinalBRDs/Problem2.brd"/>
+    <Asset name="Problem3.brd" label="Problem3.Brd" description="Problem3.Brd" asset_locator="FinalBRDs/Problem3.brd"/>
+    <Asset name="Problem4.brd" label="Problem4.Brd" description="Problem4.Brd" asset_locator="FinalBRDs/Problem4.brd"/>
+    <Asset name="Problem5.brd" label="Problem5.Brd" description="Problem5.Brd" asset_locator="FinalBRDs/Problem5.brd"/>
+    <Asset name="Problem6.brd" label="Problem6.Brd" description="Problem6.Brd" asset_locator="FinalBRDs/Problem6.brd"/>
+    <Asset name="Problem7.brd" label="Problem7.Brd" description="Problem7.Brd" asset_locator="FinalBRDs/Problem7.brd"/>
+    <Asset name="rental.brd" label="Rental.Brd" description="Rental.Brd" asset_locator="FinalBRDs/rental.brd"/>
+    <Asset name="7.02_interface.fla" label="7.02 Interface.Fla" description="7.02 Interface.Fla" asset_locator="Flash/7.02_interface.fla"/>
+    <Asset name="7_02_template.brd" label="7 02 Template.Brd" description="7 02 Template.Brd" asset_locator="MassProduction/7_02_template.brd"/>
+    <Asset name="7_02_template.txt" label="7 02 Template.Txt" description="7 02 Template.Txt" asset_locator="MassProduction/7_02_template.txt"/>
+    <Asset name="Problems.docx" label="Problems.Docx" description="Problems.Docx" asset_locator="Problems.docx"/>
+    <Asset name="mathtutor_7.02_full.png" label="Mathtutor 7.02 Full.Png" description="Mathtutor 7.02 Full.Png" asset_locator="Assets/mathtutor_7.02_full.png"/>
+    <Asset name="Problem1HTML.brd" label="Problem1 Html.Brd" description="Problem1 Html.Brd" asset_locator="FinalBRDs/Problem1HTML.brd"/>
+    <Asset name="slope_intercept.html" label="Slope Intercept.Html" description="Slope Intercept.Html" asset_locator="HTML/slope_intercept.html"/>
+    <Asset name="slope_intercept-styles.js" label="Slope Intercept Styles.Js" description="Slope Intercept Styles.Js" asset_locator="HTML/Assets/slope_intercept-styles.js"/>
+    <Asset name="Problem2HTML.brd" label="Problem2 Html.Brd" description="Problem2 Html.Brd" asset_locator="FinalBRDs/Problem2HTML.brd"/>
+    <Asset name="Problem3HTML.brd" label="Problem3 Html.Brd" description="Problem3 Html.Brd" asset_locator="FinalBRDs/Problem3HTML.brd"/>
+    <Asset name="Problem4HTML.brd" label="Problem4 Html.Brd" description="Problem4 Html.Brd" asset_locator="FinalBRDs/Problem4HTML.brd"/>
+    <Asset name="Problem5HTML.brd" label="Problem5 Html.Brd" description="Problem5 Html.Brd" asset_locator="FinalBRDs/Problem5HTML.brd"/>
+    <Asset name="Problem6HTML.brd" label="Problem6 Html.Brd" description="Problem6 Html.Brd" asset_locator="FinalBRDs/Problem6HTML.brd"/>
+    <Asset name="Problem7HTML.brd" label="Problem7 Html.Brd" description="Problem7 Html.Brd" asset_locator="FinalBRDs/Problem7HTML.brd"/>
+    <Asset name="Problem8HTML.brd" label="Problem8 Html.Brd" description="Problem8 Html.Brd" asset_locator="FinalBRDs/Problem8HTML.brd"/>
+    <Asset name="Problem9HTML.brd" label="Problem9 Html.Brd" description="Problem9 Html.Brd" asset_locator="FinalBRDs/Problem9HTML.brd"/>
+    <Asset name="Problem10HTML.brd" label="Problem10 Html.Brd" description="Problem10 Html.Brd" asset_locator="FinalBRDs/Problem10HTML.brd"/>
+    <Asset name="slope_intercept.html~" label="Slope Intercept.Html~" description="Slope Intercept.Html~" asset_locator="HTML/slope_intercept.html~"/>
+    <Asset name="slope_intercept2.html" label="Slope Intercept2.Html" description="Slope Intercept2.Html" asset_locator="HTML/slope_intercept2.html"/>
+    <Asset name="slope_intercept-styles.css" label="Slope Intercept Styles.Css" description="Slope Intercept Styles.Css" asset_locator="HTML/Assets/slope_intercept-styles.css"/>
+  </Assets>
+</Package>

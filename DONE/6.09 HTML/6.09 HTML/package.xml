@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="6.09 HTML" label="6.09 Decimal Addition and Subtraction II" description="Student must identify addition or subtraction, align addends or minuends and subtrahends, and complete the addition or subtraction." tutor_type="javascript" save_state="true">
+  <Problems>
+    <Problem name="roadtrip" label="roadtrip" description="Student must identify addition or subtraction, align addends or minuends and subtrahends, and complete the addition or subtraction." tutor_flag="tutor" problem_file="roadtrip.brd" student_interface="609tutor.html">
+      <Skills>
+        <Skill name="Sub-Column-With-Borrow-and-Loan" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+        <Skill name="Enter-addends" category="Decimal-Addition-and-Subtraction" occurrences="13"/>
+        <Skill name="Sub-Column-With-No-Borrow" category="Decimal-Addition-and-Subtraction" occurrences="3"/>
+        <Skill name="Sub-Column-With-Borrow" category="Decimal-Addition-and-Subtraction" occurrences="4"/>
+        <Skill name="Enter-Decimal-Point" category="Decimal-Addition-and-Subtraction" occurrences="3"/>
+        <Skill name="Choose-Operation" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="comicstrip" label="comicstrip" description="Student must identify addition or subtraction, align addends or minuends and subtrahends, and complete the addition or subtraction." tutor_flag="tutor" problem_file="comicstrip.brd" student_interface="609tutor.html">
+      <Skills>
+        <Skill name="Choose-Operation" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+        <Skill name="Enter-Decimal-Point" category="Decimal-Addition-and-Subtraction" occurrences="3"/>
+        <Skill name="Enter-addends" category="Decimal-Addition-and-Subtraction" occurrences="9"/>
+        <Skill name="Sub-Column-With-No-Borrow" category="Decimal-Addition-and-Subtraction" occurrences="4"/>
+        <Skill name="Sub-Column-With-Borrow" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="gail" label="gail" description="Student must identify addition or subtraction, align addends or minuends and subtrahends, and complete the addition or subtraction." tutor_flag="tutor" problem_file="gail.brd" student_interface="609tutor.html">
+      <Skills>
+        <Skill name="Choose-Operation" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+        <Skill name="Add-column-no-carry" category="Decimal-Addition-and-Subtraction" occurrences="4"/>
+        <Skill name="Enter-Decimal-Point" category="Decimal-Addition-and-Subtraction" occurrences="3"/>
+        <Skill name="Enter-addends" category="Decimal-Addition-and-Subtraction" occurrences="7"/>
+      </Skills>
+    </Problem>
+    <Problem name="groundhog" label="groundhog" description="Student must identify addition or subtraction, align addends or minuends and subtrahends, and complete the addition or subtraction." tutor_flag="tutor" problem_file="groundhog.brd" student_interface="609tutor.html">
+      <Skills>
+        <Skill name="Choose-Operation" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+        <Skill name="Enter-Decimal-Point" category="Decimal-Addition-and-Subtraction" occurrences="2"/>
+        <Skill name="Enter-addends" category="Decimal-Addition-and-Subtraction" occurrences="7"/>
+        <Skill name="Sub-Column-With-No-Borrow" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+        <Skill name="Sub-Column-With-Borrow" category="Decimal-Addition-and-Subtraction" occurrences="2"/>
+      </Skills>
+    </Problem>
+    <Problem name="applejuice" label="applejuice" description="Student must identify addition or subtraction, align addends or minuends and subtrahends, and complete the addition or subtraction." tutor_flag="tutor" problem_file="applejuice.brd" student_interface="609tutor.html">
+      <Skills>
+        <Skill name="Choose-Operation" category="Decimal-Addition-and-Subtraction" occurrences="1"/>
+        <Skill name="Add-column-no-carry" category="Decimal-Addition-and-Subtraction" occurrences="2"/>
+        <Skill name="Enter-Decimal-Point" category="Decimal-Addition-and-Subtraction" occurrences="3"/>
+        <Skill name="Add-Column-With-Carry" category="Decimal-Addition-and-Subtraction" occurrences="3"/>
+        <Skill name="Enter-addends" category="Decimal-Addition-and-Subtraction" occurrences="7"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="6.09" label="6.09 Decimal Addition and Subtraction II" description="Student must identify addition or subtraction, align addends or minuends and subtrahends, and complete the addition or subtraction." status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="applejuice" position="1" role="0"/>
+        <Problem name="comicstrip" position="2" role="0"/>
+        <Problem name="gail" position="3" role="0"/>
+        <Problem name="groundhog" position="4" role="0"/>
+        <Problem name="roadtrip" position="5" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="Sub-Column-With-Borrow-and-Loan" category="Decimal-Addition-and-Subtraction" label="Sub Column With Borrow And Loan" description="Sub Column With Borrow And Loan" position="0" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Enter-addends" category="Decimal-Addition-and-Subtraction" label="Enter Addends" description="Enter Addends" position="1" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Sub-Column-With-No-Borrow" category="Decimal-Addition-and-Subtraction" label="Sub Column With No Borrow" description="Sub Column With No Borrow" position="2" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Sub-Column-With-Borrow" category="Decimal-Addition-and-Subtraction" label="Sub Column With Borrow" description="Sub Column With Borrow" position="3" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Enter-Decimal-Point" category="Decimal-Addition-and-Subtraction" label="Enter Decimal Point" description="Enter Decimal Point" position="4" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Choose-Operation" category="Decimal-Addition-and-Subtraction" label="Choose Operation" description="Choose Operation" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Add-column-no-carry" category="Decimal-Addition-and-Subtraction" label="Add Column No Carry" description="Add Column No Carry" position="6" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Add-Column-With-Carry" category="Decimal-Addition-and-Subtraction" label="Add Column With Carry" description="Add Column With Carry" position="7" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="6.09.zip" label="6.09.Zip" description="6.09.Zip" asset_locator="6.09/6.09.zip"/>
+    <Asset name="6.09.css" label="6.09.Css" description="6.09.Css" asset_locator="HTML/Assets/6.09.css"/>
+    <Asset name="tutor.css" label="Tutor.Css" description="Tutor.Css" asset_locator="HTML/Assets/tutor.css"/>
+    <Asset name="overlaid.js" label="Overlaid.Js" description="Overlaid.Js" asset_locator="HTML/Assets/overlaid.js"/>
+    <Asset name="609tutor.html" label="609tutor.Html" description="609tutor.Html" asset_locator="HTML/609tutor.html"/>
+    <Asset name="roadtrip.brd" label="Roadtrip.Brd" description="Roadtrip.Brd" asset_locator="FinalBRDs/roadtrip.brd"/>
+    <Asset name="applejuice.brd" label="Applejuice.Brd" description="Applejuice.Brd" asset_locator="FinalBRDs/applejuice.brd"/>
+    <Asset name="comicstrip.brd" label="Comicstrip.Brd" description="Comicstrip.Brd" asset_locator="FinalBRDs/comicstrip.brd"/>
+    <Asset name="gail.brd" label="Gail.Brd" description="Gail.Brd" asset_locator="FinalBRDs/gail.brd"/>
+    <Asset name="groundhog.brd" label="Groundhog.Brd" description="Groundhog.Brd" asset_locator="FinalBRDs/groundhog.brd"/>
+  </Assets>
+</Package>
