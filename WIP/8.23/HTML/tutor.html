@@ -1,0 +1,168 @@
+<html lang="en-US">
+  <head>
+    <title>Tutor 8.20</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.ctat.cs.cmu.edu/releases/beta/CTAT.css">
+  <link rel="stylesheet" type="text/css" href="Assets/overlaid.css">
+
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/beta/jquery.min.js"></script>
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/beta/ctat.min.js"></script>
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/beta/ctatloader.js"></script>
+
+  <style>
+    #questions {
+      display: inline-block;
+    }
+
+    #imagesSection {
+      margin-left: 100px;
+      margin-top: 25px;
+    }
+
+    .CTATProblem,
+    .CTATSolution {
+      margin-top: 15px;
+      border: 0px;
+      flex: 0.3;
+      text-align: center;
+    }
+
+    #statement{
+      font-size: large;
+      padding: 5%;
+    }
+
+    .CTATHints,
+    .CTATSkills {
+      display: flex;
+      flex-grow: 1;
+      flex-flow: row;
+    }
+
+    .CTATTutor {
+      flex-wrap: wrap;
+    }
+
+    .table,
+    td {
+      text-align:center;
+      border: none;
+      border-collapse: collapse;
+      padding-bottom: 2em;
+      font-size: 30px; 
+      font-weight: bold;
+    }
+
+    th{
+      text-align:center;
+      border: none;
+      border-collapse: collapse;
+      padding-bottom: 20px;
+      font-size: 20px; 
+      font-weight: normal;
+    }
+
+    .CTATTools {
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+    }
+
+    .CTATTextInput{
+      width: 100px;
+      font-size: 20px;
+      font-weight: normal;
+    }
+
+    .row{
+      padding-bottom: 2em;
+    }
+  </style>
+</head>
+
+  <body data-width="1440px" data-height="500px">
+    <main class="CTATTutor">
+      <h1>Tutor 8.20</h1>
+      
+      <section class="CTATProblem" style="margin: auto;">
+          <h2>Problem Statement</h2>
+          Simplify the expression by finding the common factor.
+          <div style="font-size: 30px;">
+          </br>
+          <table>
+            <tr><td style="border-bottom: 3px solid black; padding: 5px;"><div id="numerator" class="CTATTextField"></div></td></tr>
+            <tr><td><div id="denominator" class="CTATTextField"></div></td></tr>
+          </table>
+            
+          </div>
+          <!-- <a href="./images/mathtutor_8.20_full.png" target="_blank">Click here to view sample image.</a> -->
+      </section>
+
+      <section class="CTATSolution" style="margin: auto;">
+        <h2>Problem Solution</h2>
+
+        <table>
+
+          <div id="cf_num1" class="CTATTextInput"></div>
+          <div id="cf_den1" class="CTATTextInput"></div>
+
+          <div id="x_num1" class="CTATTextInput"></div>
+          <div id="x_den1" class="CTATTextInput"></div>
+
+          <div id="y_num1" class="CTATTextInput"></div>
+          <div id="y_den1" class="CTATTextInput"></div>
+
+          <!-- I think these are the 2nd blue box -->
+          <div id="comfac_num" class="CTATTextInput"></div>
+          <div id="comfac_x" class="CTATTextInput"></div>
+          <div id="comfac_y" class="CTATTextInput"></div>
+
+          <!-- Hidden guys -->
+          <div id="cf_num2" class="CTATTextInput"></div>
+          <div id="cf_den2" class="CTATTextInput"></div>
+
+          <div id="x_num2" class="CTATTextInput"></div>
+          <div id="x_den2" class="CTATTextInput"></div>
+
+          <div id="y_num2" class="CTATTextInput"></div>
+          <div id="y_den2" class="CTATTextInput"></div>
+     
+
+          <!-- these are the guys that pop out
+            
+          <div id="comfac_num_disp" class="CTATTextInput"></div>
+          <div id="comfac_num_disp2" class="CTATTextInput"></div>
+          <div id="comfac_x_disp" class="CTATTextInput"></div>
+          <div id="comfac_x_disp2" class="CTATTextInput"></div>
+          <div id="comfac_y_disp" class="CTATTextInput"></div>
+          <div id="comfac_y_disp2" class="CTATTextInput"></div> -->
+
+          <!-- //needs to be in decimal form? -->
+          <div id="finalResult" class="CTATTextInput"></div> 
+
+        </table>
+      </section>
+
+      <section class="CTATTools">
+        <h2>Tools</h2>
+
+        <section class="CTATHints">
+          <h3>Hints</h3>
+          <div class="CTATButtons">
+            <div class="CTATHintButton"></div>
+            <div class="CTATDoneButton"></div>
+          </div>
+          <div class="CTATHintWindow" id="hint"></div>
+
+        </section>
+
+        <section class="CTATSkills">
+          <h3>Skills</h3>
+          <div class="CTATSkillWindow" id="skills"></div>
+        </section>
+      </section>
+
+    </main>
+  </body>
+
+</html>

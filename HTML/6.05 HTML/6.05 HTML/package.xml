@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="6.05 HTML" label="6.05" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_type="javascript" save_state="true">
+  <Problems>
+    <Problem name="1" label="1" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="1.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+    <Problem name="2" label="2" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="2.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+    <Problem name="3" label="3" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="3.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+    <Problem name="4" label="4" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="4.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+    <Problem name="5" label="5" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="5.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+    <Problem name="6" label="6" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="6.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+    <Problem name="7" label="7" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="7.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+    <Problem name="8" label="8" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." tutor_flag="tutor" problem_file="8.brd" student_interface="tutor.html">
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" occurrences="4"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" occurrences="4"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="6.05" label="6.05 HTML" description="Uses images to demonstrate ratios and asks student to determine corresponding fractions, percents, and decimals." status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="1" position="1" role="0"/>
+        <Problem name="2" position="2" role="0"/>
+        <Problem name="3" position="3" role="0"/>
+        <Problem name="4" position="4" role="0"/>
+        <Problem name="5" position="5" role="0"/>
+        <Problem name="6" position="6" role="0"/>
+        <Problem name="7" position="7" role="0"/>
+        <Problem name="8" position="8" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="Enter-As-Decimal" category="Fractions-Decimals-Percents" label="Enter as decimal" description="Enter as decimal" position="0" pKnown="0.25" pLearn="0.15" pGuess="0.2" pSlip="0.3"/>
+        <Skill name="Enter-Reduced-Fraction" category="Fractions-Decimals-Percents" label="Enter reduced fraction" description="Enter reduced fraction" position="1" pKnown="0.25" pLearn="0.15" pGuess="0.2" pSlip="0.3"/>
+        <Skill name="Enter-As-Percent" category="Fractions-Decimals-Percents" label="Enter as percent" description="Enter as percent" position="2" pKnown="0.25" pLearn="0.15" pGuess="0.2" pSlip="0.3"/>
+        <Skill name="Count-Total-Items" category="Fractions-Decimals-Percents" label="Count total items" description="Count total items" position="3" pKnown="0.25" pLearn="0.15" pGuess="0.2" pSlip="0.3"/>
+        <Skill name="Count-Target-Items" category="Fractions-Decimals-Percents" label="Count target items" description="Count target items" position="4" pKnown="0.25" pLearn="0.15" pGuess="0.2" pSlip="0.3"/>
+        <Skill name="Enter-Unreduced-Ratio" category="Fractions-Decimals-Percents" label="Enter unreduced ratio" description="Enter unreduced ratio" position="5" pKnown="0.25" pLearn="0.15" pGuess="0.2" pSlip="0.3"/>
+        <Skill name="Enter-As-Fraction-Out-100" category="Fractions-Decimals-Percents" label="Enter as fraction out of 100" description="Enter as fraction out of 100" position="6" pKnown="0.25" pLearn="0.15" pGuess="0.2" pSlip="0.3"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="01.png" label="01.Png" description="01.Png" asset_locator="HTML/Assets/01.png"/>
+    <Asset name="02.png" label="02.Png" description="02.Png" asset_locator="HTML/Assets/02.png"/>
+    <Asset name="03.png" label="03.Png" description="03.Png" asset_locator="HTML/Assets/03.png"/>
+    <Asset name="04.png" label="04.Png" description="04.Png" asset_locator="HTML/Assets/04.png"/>
+    <Asset name="05.png" label="05.Png" description="05.Png" asset_locator="HTML/Assets/05.png"/>
+    <Asset name="6.05.css" label="6.05.Css" description="6.05.Css" asset_locator="HTML/Assets/6.05.css"/>
+    <Asset name="06.png" label="06.Png" description="06.Png" asset_locator="HTML/Assets/06.png"/>
+    <Asset name="07.png" label="07.Png" description="07.Png" asset_locator="HTML/Assets/07.png"/>
+    <Asset name="08.png" label="08.Png" description="08.Png" asset_locator="HTML/Assets/08.png"/>
+    <Asset name="tutor.css" label="Tutor.Css" description="Tutor.Css" asset_locator="HTML/Assets/tutor.css"/>
+    <Asset name="tutor.html" label="Tutor.Html" description="Tutor.Html" asset_locator="HTML/tutor.html"/>
+    <Asset name="1.brd" label="1.Brd" description="1.Brd" asset_locator="FinalBRDs/1.brd"/>
+    <Asset name="2.brd" label="2.Brd" description="2.Brd" asset_locator="FinalBRDs/2.brd"/>
+    <Asset name="3.brd" label="3.Brd" description="3.Brd" asset_locator="FinalBRDs/3.brd"/>
+    <Asset name="4.brd" label="4.Brd" description="4.Brd" asset_locator="FinalBRDs/4.brd"/>
+    <Asset name="5.brd" label="5.Brd" description="5.Brd" asset_locator="FinalBRDs/5.brd"/>
+    <Asset name="6.brd" label="6.Brd" description="6.Brd" asset_locator="FinalBRDs/6.brd"/>
+    <Asset name="7.brd" label="7.Brd" description="7.Brd" asset_locator="FinalBRDs/7.brd"/>
+    <Asset name="8.brd" label="8.Brd" description="8.Brd" asset_locator="FinalBRDs/8.brd"/>
+    <Asset name="6_5.brd" label="6 5.Brd" description="6 5.Brd" asset_locator="MassProduction/6_5.brd"/>
+    <Asset name="6_5.txt" label="6 5.Txt" description="6 5.Txt" asset_locator="MassProduction/6_5.txt"/>
+  </Assets>
+</Package>

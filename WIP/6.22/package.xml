@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="6.22" label="6.22 Simple Probability I" description="Uses images and graphs to help student visualize probability." tutor_type="server">
+  <Problems>
+    <Problem name="01 Graph of Candies" label="Candies in a bag" description="Candies in a bag" tutor_flag="tutor" problem_file="01candy.brd" student_interface="6-22_graphs.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="6"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="6"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="6"/>
+      </Skills>
+    </Problem>
+    <Problem name="02 Cards" label="Cards" description="Cards" tutor_flag="tutor" problem_file="02cards.brd" student_interface="6-22_images.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="7"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="7"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="7"/>
+      </Skills>
+    </Problem>
+    <Problem name="03 Graph of Candies" label="Candies in a bag" description="Candies in a bag" tutor_flag="tutor" problem_file="03candy.brd" student_interface="6-22_graphs.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="6"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="6"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="6"/>
+      </Skills>
+    </Problem>
+    <Problem name="04 Veggies" label="Veggie" description="Veggie" tutor_flag="tutor" problem_file="04vegetables.brd" student_interface="6-22_images.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="7"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="7"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="7"/>
+      </Skills>
+    </Problem>
+    <Problem name="05 Graph of Marbles" label="Marbles in a bag" description="Marbles in a bag" tutor_flag="tutor" problem_file="05marble.brd" student_interface="6-22_graphs.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="6"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="6"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="6"/>
+      </Skills>
+    </Problem>
+    <Problem name="06 Desserts" label="Desserts" description="Desserts" tutor_flag="tutor" problem_file="06desserts.brd" student_interface="6-22_images.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="7"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="7"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="7"/>
+      </Skills>
+    </Problem>
+    <Problem name="07 Graph of Marbles" label="Marbles in a bag" description="Marbles in a bag" tutor_flag="tutor" problem_file="07marble.brd" student_interface="6-22_graphs.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="6"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="6"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="6"/>
+      </Skills>
+    </Problem>
+    <Problem name="08 Letters" label="Mississippi letters" description="Mississippi letters" tutor_flag="tutor" problem_file="08mississippi.brd" student_interface="6-22_images.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="7"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="7"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="7"/>
+      </Skills>
+    </Problem>
+    <Problem name="09 fastfoods" label="Fastfood" description="Fastfood" tutor_flag="tutor" problem_file="09fastfood.brd" student_interface="6-22_images.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="7"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="7"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="7"/>
+      </Skills>
+    </Problem>
+    <Problem name="10 Graph of Marbles" label="Marbles in a bag" description="Marbles in a bag" tutor_flag="tutor" problem_file="10marble.brd" student_interface="6-22_graphs.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="6"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="6"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="6"/>
+      </Skills>
+    </Problem>
+    <Problem name="11 Sport Balls" label="Sport balls" description="Sport balls" tutor_flag="tutor" problem_file="11sports.brd" student_interface="6-22_images.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="7"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="7"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="7"/>
+      </Skills>
+    </Problem>
+    <Problem name="12 Graph of Marbles" label="Marbles in a bag" description="Marbles in a bag" tutor_flag="tutor" problem_file="12marble.brd" student_interface="6-22_graphs.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="6"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="6"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="6"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="6"/>
+      </Skills>
+    </Problem>
+    <Problem name="13 Chess Pieces" label="Chess" description="Chess" tutor_flag="tutor" problem_file="13chess.brd" student_interface="6-22_images.swf">
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" occurrences="7"/>
+        <Skill name="Count-Total-Items" category="Probability" occurrences="7"/>
+        <Skill name="Identify-GCF" category="Probability" occurrences="7"/>
+        <Skill name="Count-Target-Items" category="Probability" occurrences="7"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="6.22" label="6.22 Simple Probability I" description="Uses images and graphs to help student visualize probability." status="active" picture="mathtutor_6.22_full.png" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="01 Graph of Candies" position="1" role="0"/>
+        <Problem name="02 Cards" position="2" role="0"/>
+        <Problem name="03 Graph of Candies" position="3" role="0"/>
+        <Problem name="04 Veggies" position="4" role="0"/>
+        <Problem name="05 Graph of Marbles" position="5" role="0"/>
+        <Problem name="06 Desserts" position="6" role="0"/>
+        <Problem name="07 Graph of Marbles" position="7" role="0"/>
+        <Problem name="08 Letters" position="8" role="0"/>
+        <Problem name="09 fastfoods" position="9" role="0"/>
+        <Problem name="10 Graph of Marbles" position="10" role="0"/>
+        <Problem name="11 Sport Balls" position="11" role="0"/>
+        <Problem name="12 Graph of Marbles" position="12" role="0"/>
+        <Problem name="13 Chess Pieces" position="13" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="Enter-Probability" category="Probability" label="Enter probability" description="Enter probability" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Enter-Simplified-Probability" category="Probability" label="Enter simplified probability" description="Enter simplified probability" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Count-Total-Items" category="Probability" label="Count total items" description="Count total items" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Identify-GCF" category="Probability" label="Identify GCF" description="Identify GCF" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+        <Skill name="Count-Target-Items" category="Probability" label="Count target items" description="Count target items" position="5" pKnown="0.25" pLearn="0.2" pGuess="0.2" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="01candy.brd" label="01candy.Brd" description="01candy.Brd" asset_locator="FinalBRDs/01candy.brd"/>
+    <Asset name="6-22_graphs.swf" label="6 22 Graphs.Swf" description="6 22 Graphs.Swf" asset_locator="Flash/6-22_graphs.swf"/>
+    <Asset name="02cards.brd" label="02cards.Brd" description="02cards.Brd" asset_locator="FinalBRDs/02cards.brd"/>
+    <Asset name="6-22_images.swf" label="6 22 Images.Swf" description="6 22 Images.Swf" asset_locator="Flash/6-22_images.swf"/>
+    <Asset name="03candy.brd" label="03candy.Brd" description="03candy.Brd" asset_locator="FinalBRDs/03candy.brd"/>
+    <Asset name="04vegetables.brd" label="04vegetables.Brd" description="04vegetables.Brd" asset_locator="FinalBRDs/04vegetables.brd"/>
+    <Asset name="05marble.brd" label="05marble.Brd" description="05marble.Brd" asset_locator="FinalBRDs/05marble.brd"/>
+    <Asset name="06desserts.brd" label="06desserts.Brd" description="06desserts.Brd" asset_locator="FinalBRDs/06desserts.brd"/>
+    <Asset name="07marble.brd" label="07marble.Brd" description="07marble.Brd" asset_locator="FinalBRDs/07marble.brd"/>
+    <Asset name="08mississippi.brd" label="08mississippi.Brd" description="08mississippi.Brd" asset_locator="FinalBRDs/08mississippi.brd"/>
+    <Asset name="09fastfood.brd" label="09fastfood.Brd" description="09fastfood.Brd" asset_locator="FinalBRDs/09fastfood.brd"/>
+    <Asset name="10marble.brd" label="10marble.Brd" description="10marble.Brd" asset_locator="FinalBRDs/10marble.brd"/>
+    <Asset name="11sports.brd" label="11sports.Brd" description="11sports.Brd" asset_locator="FinalBRDs/11sports.brd"/>
+    <Asset name="12marble.brd" label="12marble.Brd" description="12marble.Brd" asset_locator="FinalBRDs/12marble.brd"/>
+    <Asset name="13chess.brd" label="13chess.Brd" description="13chess.Brd" asset_locator="FinalBRDs/13chess.brd"/>
+    <Asset name="6-22_graphs.fla" label="6 22 Graphs.Fla" description="6 22 Graphs.Fla" asset_locator="Flash/6-22_graphs.fla"/>
+    <Asset name="6-22_images.fla" label="6 22 Images.Fla" description="6 22 Images.Fla" asset_locator="Flash/6-22_images.fla"/>
+    <Asset name="00flowers.png" label="00flowers.Png" description="00flowers.Png" asset_locator="Flash/images/00flowers.png"/>
+    <Asset name="01candy.png" label="01candy.Png" description="01candy.Png" asset_locator="Flash/images/01candy.png"/>
+    <Asset name="02cards.png" label="02cards.Png" description="02cards.Png" asset_locator="Flash/images/02cards.png"/>
+    <Asset name="03candy.png" label="03candy.Png" description="03candy.Png" asset_locator="Flash/images/03candy.png"/>
+    <Asset name="04vegetables.png" label="04vegetables.Png" description="04vegetables.Png" asset_locator="Flash/images/04vegetables.png"/>
+    <Asset name="05marble.png" label="05marble.Png" description="05marble.Png" asset_locator="Flash/images/05marble.png"/>
+    <Asset name="06desserts.png" label="06desserts.Png" description="06desserts.Png" asset_locator="Flash/images/06desserts.png"/>
+    <Asset name="07marble.png" label="07marble.Png" description="07marble.Png" asset_locator="Flash/images/07marble.png"/>
+    <Asset name="08mississippi.png" label="08mississippi.Png" description="08mississippi.Png" asset_locator="Flash/images/08mississippi.png"/>
+    <Asset name="09fastfood.png" label="09fastfood.Png" description="09fastfood.Png" asset_locator="Flash/images/09fastfood.png"/>
+    <Asset name="10marble.png" label="10marble.Png" description="10marble.Png" asset_locator="Flash/images/10marble.png"/>
+    <Asset name="11sports.png" label="11sports.Png" description="11sports.Png" asset_locator="Flash/images/11sports.png"/>
+    <Asset name="12marble.png" label="12marble.Png" description="12marble.Png" asset_locator="Flash/images/12marble.png"/>
+    <Asset name="13chess.png" label="13chess.Png" description="13chess.Png" asset_locator="Flash/images/13chess.png"/>
+    <Asset name="6.22_graphs.fla" label="6.22 Graphs.Fla" description="6.22 Graphs.Fla" asset_locator="Flash/oldFlash/6.22_graphs.fla"/>
+    <Asset name="6.22_graphs.swf" label="6.22 Graphs.Swf" description="6.22 Graphs.Swf" asset_locator="Flash/oldFlash/6.22_graphs.swf"/>
+    <Asset name="6.22_images.fla" label="6.22 Images.Fla" description="6.22 Images.Fla" asset_locator="Flash/oldFlash/6.22_images.fla"/>
+    <Asset name="6.22_images.swf" label="6.22 Images.Swf" description="6.22 Images.Swf" asset_locator="Flash/oldFlash/6.22_images.swf"/>
+    <Asset name="6-22_images.fla 1" label="6 22 Images.Fla 1" description="6 22 Images.Fla 1" asset_locator="Flash/temporary/6-22_images.fla"/>
+    <Asset name="6-22_images.swf 1" label="6 22 Images.Swf 1" description="6 22 Images.Swf 1" asset_locator="Flash/temporary/6-22_images.swf"/>
+    <Asset name="6-22_graphs.brd" label="6 22 Graphs.Brd" description="6 22 Graphs.Brd" asset_locator="MassProduction/6-22_graphs.brd"/>
+    <Asset name="6-22_graphs.txt" label="6 22 Graphs.Txt" description="6 22 Graphs.Txt" asset_locator="MassProduction/6-22_graphs.txt"/>
+    <Asset name="6-22_images.brd" label="6 22 Images.Brd" description="6 22 Images.Brd" asset_locator="MassProduction/6-22_images.brd"/>
+    <Asset name="6-22_images.txt" label="6 22 Images.Txt" description="6 22 Images.Txt" asset_locator="MassProduction/6-22_images.txt"/>
+    <Asset name="mathtutor_6.22_full.png" label="Mathtutor 6.22 Full.Png" description="Mathtutor 6.22 Full.Png" asset_locator="Assets/mathtutor_6.22_full.png"/>
+  </Assets>
+</Package>

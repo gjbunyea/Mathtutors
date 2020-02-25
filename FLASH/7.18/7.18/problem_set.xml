@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProblemSet initial_sequence="0" selection_algorithm="sequential" max_count="1000" description="Uses images and graphs to help student visualize probability." max_repeat="1" label="7.18 Simple Probability II" team_size="1" name="7.18" picture="">
+  <Problems>
+    <Problem selection_features="" problem_file="01marble.brd" description="Marble Graph" student_interface="7-18_graphs.swf" label="Marble Graph" name="01" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="6" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="6" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="6" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="02cards.brd" description="Cards" student_interface="7-18_images.swf" label="Cards" name="02" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="7" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="7" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="7" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="03marble.brd" description="Marble Graph" student_interface="7-18_graphs.swf" label="Marble Graph" name="03" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="6" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="6" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="6" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="04vegetables.brd" description="Vegetables" student_interface="7-18_images.swf" label="Vegetables" name="04" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="7" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="7" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="7" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="05marble.brd" description="Marble Graph" student_interface="7-18_graphs.swf" label="Marble Graph" name="05" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="6" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="6" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="6" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="06sports.brd" description="Sport Balls" student_interface="7-18_images.swf" label="Sport Balls" name="06" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="7" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="7" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="7" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="07candy.brd" description="Candy Graph" student_interface="7-18_graphs.swf" label="Candy Graph" name="07" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="6" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="6" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="6" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="6" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="08desserts.brd" description="Desserts" student_interface="7-18_images.swf" label="Desserts" name="08" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+        <Skill category="Probability" occurrences="7" name="Enter-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Enter-Simplified-Probability"/>
+        <Skill category="Probability" occurrences="7" name="Count-Total-Items"/>
+        <Skill category="Probability" occurrences="7" name="Identify-GCF"/>
+        <Skill category="Probability" occurrences="7" name="Count-Target-Items"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <Categories>
+    <Collection category="" description="Released Problem Sets" parent_category="" label="Released Problem Sets" parent_name="" name="general"/>
+    <Standard category="standard" description="PA Assessment Anchors" parent_category="" label="PA Assessment Anchors" parent_name="" name="PA"/>
+    <Standard category="standard" description="NCTM Curriculum Focal Points" parent_category="" label="NCTM Curriculum Focal Points" parent_name="" name="NCTM"/>
+    <Standard category="standard" description="Common Core Standards" parent_category="" label="Common Core Standards" parent_name="" name="CommonCore"/>
+    <Standard category="standard" description="Student Standards" parent_category="" label="Problem Set Categories" parent_name="" name="Student"/>
+    <Grade category="" description="7th Grade" parent_category="" label="7th Grade" parent_name="" name="7"/>
+    <Standard category="reporting_category" description="E. Data Analysis and Probability" parent_category="standard" label="E. Data Analysis and Probability" parent_name="PA" name="PA.E"/>
+    <Standard category="assessment_anchor" description="E.3. Understand and apply basic concepts of probability." parent_category="reporting_category" label="E.3. Concepts of Probability" parent_name="PA.E" name="PA.E.3"/>
+    <Standard category="strand" description="E. Data Analysis and Probability" parent_category="standard" label="E. Data Analysis and Probability" parent_name="NCTM" name="NCTM.E"/>
+    <Standard category="grade_level" description="7th Grade" parent_category="standard" label="7th Grade" parent_name="CommonCore" name="CommonCore.7"/>
+    <Standard category="strand" description="7.SP. Statistics and Probability" parent_category="grade_level" label="7.SP. Statistics and Probability" parent_name="CommonCore.7" name="CommonCore.7.SP"/>
+    <Standard category="strand" description="Student.Fdpp" parent_category="standard" label="Student.Fdpp" parent_name="Student" name="Student.FDPP"/>
+  </Categories>
+  <Skills>
+    <Skill category="Probability" pKnown="0.25" description="Count target items" pLearn="0.2" label="Count target items" name="Count-Target-Items" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="Probability" pKnown="0.25" description="Count total items" pLearn="0.2" label="Count total items" name="Count-Total-Items" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="Probability" pKnown="0.25" description="Enter probability" pLearn="0.2" label="Enter probability" name="Enter-Probability" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="Probability" pKnown="0.25" description="Enter simplified probability" pLearn="0.2" label="Enter simplified probability" name="Enter-Simplified-Probability" pGuess="0.2" pSlip="0.1"/>
+    <Skill category="Probability" pKnown="0.25" description="Identify GCF" pLearn="0.2" label="Identify GCF" name="Identify-GCF" pGuess="0.2" pSlip="0.1"/>
+  </Skills>
+  <Assets>
+  </Assets>
+</ProblemSet>

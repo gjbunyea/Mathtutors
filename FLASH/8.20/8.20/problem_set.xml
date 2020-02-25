@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProblemSet initial_sequence="0" selection_algorithm="sequential" max_count="1000" description="Student applies exponent product rule to multiply two exponent expressions." max_repeat="1" label="8.20 Exponent Product Rule" team_size="1" name="8.20" picture="">
+  <Problems>
+    <Problem selection_features="" problem_file="Problem 2.brd" description="(3X^5Y^4)(2Y^4)" student_interface="epr interface.swf" label="(3X^5Y^4)(2Y^4)" name="Problem 2" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 3.brd" description="(4X^5Y^5)(Y^2)" student_interface="epr interface.swf" label="(4X^5Y^5)(Y^2)" name="Problem 3" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 4.brd" description="(5X^2Y^3)(2X^4Y^4)" student_interface="epr interface.swf" label="(5X^2Y^3)(2X^4Y^4)" name="Problem 4" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 5.brd" description="(5X^4Y^3)(4X^4Y^2)" student_interface="epr interface.swf" label="(5X^4Y^3)(4X^4Y^2)" name="Problem 5" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 6.brd" description="(4X^6Y^5)(6Y^4)" student_interface="epr interface.swf" label="(4X^6Y^5)(6Y^4)" name="Problem 6" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 7.brd" description="(7XY^5)(X^5)" student_interface="epr interface.swf" label="(7XY^5)(X^5)" name="Problem 7" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+  </Problems>
+  <Categories>
+    <Collection category="" description="Released Problem Sets" parent_category="" label="Released Problem Sets" parent_name="" name="general"/>
+    <Standard category="standard" description="PA Assessment Anchors" parent_category="" label="PA Assessment Anchors" parent_name="" name="PA"/>
+    <Standard category="standard" description="NCTM Curriculum Focal Points" parent_category="" label="NCTM Curriculum Focal Points" parent_name="" name="NCTM"/>
+    <Standard category="standard" description="Common Core Standards" parent_category="" label="Common Core Standards" parent_name="" name="CommonCore"/>
+    <Standard category="standard" description="Student Standards" parent_category="" label="Problem Set Categories" parent_name="" name="Student"/>
+    <Grade category="" description="8th Grade" parent_category="" label="8th Grade" parent_name="" name="8"/>
+    <Standard category="reporting_category" description="A. Numbers and Operations" parent_category="standard" label="A. Numbers and Operations" parent_name="PA" name="PA.A"/>
+    <Standard category="assessment_anchor" description="A.2. Understand the meanings of operations, use operations and understand how they relate to each other." parent_category="reporting_category" label="A.2. Operations: Meanings, Uses and Relationships" parent_name="PA.A" name="PA.A.2"/>
+    <Standard category="strand" description="B. Algebra" parent_category="standard" label="B. Algebra" parent_name="NCTM" name="NCTM.B"/>
+    <Standard category="grade_level" description="8th Grade" parent_category="standard" label="8th Grade" parent_name="CommonCore" name="CommonCore.8"/>
+    <Standard category="strand" description="8.EE. Expressions and Equations" parent_category="grade_level" label="8.EE. Expressions and Equations" parent_name="CommonCore.8" name="CommonCore.8.EE"/>
+    <Standard category="strand" description="Working with Exponents" parent_category="standard" label="Working with Exponents" parent_name="Student" name="Student.WE"/>
+  </Categories>
+  <Skills>
+  </Skills>
+  <Assets>
+  </Assets>
+</ProblemSet>

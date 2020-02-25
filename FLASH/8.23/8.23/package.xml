@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="8.23" label="8.23 Exponent Quotient Rule" description="Student applies exponent quotient rule to divide two exponent expressions." tutor_type="server">
+  <Problems>
+    <Problem name="FadedExample1" label="(3X^2Y^2)/(1x^2y^1)" description="(3X^2Y^2)/(1x^2y^1)" tutor_flag="tutor" problem_file="Problem-Faded-1.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="FadedExample2" label="(8x^4y^6)/(4x^2y^2)" description="(8x^4y^6)/(4x^2y^2)" tutor_flag="tutor" problem_file="Problem-Faded-2.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="FadedExample3" label="(2x^2y^5)/(2x^3y^3)" description="(2x^2y^5)/(2x^3y^3)" tutor_flag="tutor" problem_file="Problem-Faded-3.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="Problem 1" label="(6x^3y^3)/(4x^5y^2)" description="(6x^3y^3)/(4x^5y^2)" tutor_flag="tutor" problem_file="Problem 1.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="Problem 2" label="(3x^3y^5)/(3x^2y^3)" description="(3x^3y^5)/(3x^2y^3)" tutor_flag="tutor" problem_file="Problem 2.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="Problem 3" label="(5x^4y^4)/(y^2)" description="(5x^4y^4)/(y^2)" tutor_flag="tutor" problem_file="Problem 3.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="Problem 4" label="(7x^3y^4)/(x^3y^3)" description="(7x^3y^4)/(x^3y^3)" tutor_flag="tutor" problem_file="Problem 4.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="Problem 5" label="(2x^5y^6)/(5x^4y^6)" description="(2x^5y^6)/(5x^4y^6)" tutor_flag="tutor" problem_file="Problem 5.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="Problem 6" label="(4x^4y^4)/(x^6)" description="(4x^4y^4)/(x^6)" tutor_flag="tutor" problem_file="Problem 6.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem name="Problem 7" label="(x^2y^2)/(x^2y^3)" description="(x^2y^2)/(x^2y^3)" tutor_flag="tutor" problem_file="Problem 7.brd" student_interface="8-23.swf">
+      <Skills>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="8.23" label="8.23 Exponent Quotient Rule" description="Student applies exponent quotient rule to divide two exponent expressions." status="active" picture="mathtutor_8.23_full.png" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="FadedExample1" position="1" role="0"/>
+        <Problem name="FadedExample2" position="2" role="0"/>
+        <Problem name="FadedExample3" position="3" role="0"/>
+        <Problem name="Problem 1" position="4" role="0"/>
+        <Problem name="Problem 2" position="5" role="0"/>
+        <Problem name="Problem 3" position="6" role="0"/>
+        <Problem name="Problem 4" position="7" role="0"/>
+        <Problem name="Problem 5" position="8" role="0"/>
+        <Problem name="Problem 6" position="9" role="0"/>
+        <Problem name="Problem 7" position="10" role="0"/>
+      </Problems>
+      <Skills>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="Problem-Faded-1.brd" label="Problem Faded 1.Brd" description="Problem Faded 1.Brd" asset_locator="FinalBRDs/Problem-Faded-1.brd"/>
+    <Asset name="8-23.swf" label="8 23.Swf" description="8 23.Swf" asset_locator="Flash/8-23.swf"/>
+    <Asset name="Problem-Faded-2.brd" label="Problem Faded 2.Brd" description="Problem Faded 2.Brd" asset_locator="FinalBRDs/Problem-Faded-2.brd"/>
+    <Asset name="Problem-Faded-3.brd" label="Problem Faded 3.Brd" description="Problem Faded 3.Brd" asset_locator="FinalBRDs/Problem-Faded-3.brd"/>
+    <Asset name="Problem 1.brd" label="Problem 1.Brd" description="Problem 1.Brd" asset_locator="FinalBRDs/Problem 1.brd"/>
+    <Asset name="Problem 2.brd" label="Problem 2.Brd" description="Problem 2.Brd" asset_locator="FinalBRDs/Problem 2.brd"/>
+    <Asset name="Problem 3.brd" label="Problem 3.Brd" description="Problem 3.Brd" asset_locator="FinalBRDs/Problem 3.brd"/>
+    <Asset name="Problem 4.brd" label="Problem 4.Brd" description="Problem 4.Brd" asset_locator="FinalBRDs/Problem 4.brd"/>
+    <Asset name="Problem 5.brd" label="Problem 5.Brd" description="Problem 5.Brd" asset_locator="FinalBRDs/Problem 5.brd"/>
+    <Asset name="Problem 6.brd" label="Problem 6.Brd" description="Problem 6.Brd" asset_locator="FinalBRDs/Problem 6.brd"/>
+    <Asset name="Problem 7.brd" label="Problem 7.Brd" description="Problem 7.Brd" asset_locator="FinalBRDs/Problem 7.brd"/>
+    <Asset name="8-23.fla" label="8 23.Fla" description="8 23.Fla" asset_locator="Flash/8-23.fla"/>
+    <Asset name="eqr interface.fla" label="Eqr Interface.Fla" description="Eqr Interface.Fla" asset_locator="Flash/old/eqr interface.fla"/>
+    <Asset name="eqr interface.swf" label="Eqr Interface.Swf" description="Eqr Interface.Swf" asset_locator="Flash/old/eqr interface.swf"/>
+    <Asset name="eqr interface_with_example.fla" label="Eqr Interface With Example.Fla" description="Eqr Interface With Example.Fla" asset_locator="Flash/old/eqr interface_with_example.fla"/>
+    <Asset name="Problem 6.log" label="Problem 6.Log" description="Problem 6.Log" asset_locator="LoadTests/Problem 6.log"/>
+    <Asset name="eqr graph final2.brd" label="Eqr Graph Final2.Brd" description="Eqr Graph Final2.Brd" asset_locator="mass production/eqr graph final2.brd"/>
+    <Asset name="eqr problem table.txt" label="Eqr Problem Table.Txt" description="Eqr Problem Table.Txt" asset_locator="mass production/eqr problem table.txt"/>
+    <Asset name="eqr graph final.brd" label="Eqr Graph Final.Brd" description="Eqr Graph Final.Brd" asset_locator="mass production/old/eqr graph final.brd"/>
+    <Asset name="eqr graph.brd" label="Eqr Graph.Brd" description="Eqr Graph.Brd" asset_locator="mass production/old/eqr graph.brd"/>
+    <Asset name="eqr problem table.txt 1" label="Eqr Problem Table.Txt 1" description="Eqr Problem Table.Txt 1" asset_locator="mass production/old/eqr problem table.txt"/>
+    <Asset name="mathtutor_8.23_full.png" label="Mathtutor 8.23 Full.Png" description="Mathtutor 8.23 Full.Png" asset_locator="Assets/mathtutor_8.23_full.png"/>
+    <Asset name="UI-completed.png" label="Ui Completed.Png" description="Ui Completed.Png" asset_locator="Flash/old/UI-completed.png"/>
+  </Assets>
+</Package>

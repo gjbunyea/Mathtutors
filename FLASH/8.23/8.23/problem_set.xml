@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProblemSet initial_sequence="0" selection_algorithm="sequential" max_count="1000" description="Student applies exponent quotient rule to divide two exponent expressions." max_repeat="1" label="8.23 Exponent Quotient Rule" team_size="1" name="8.23" picture="">
+  <Problems>
+    <Problem selection_features="" problem_file="Problem-Faded-1.brd" description="(3X^2Y^2)/(1x^2y^1)" student_interface="8-23.swf" label="(3X^2Y^2)/(1x^2y^1)" name="FadedExample1" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem-Faded-2.brd" description="(8x^4y^6)/(4x^2y^2)" student_interface="8-23.swf" label="(8x^4y^6)/(4x^2y^2)" name="FadedExample2" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem-Faded-3.brd" description="(2x^2y^5)/(2x^3y^3)" student_interface="8-23.swf" label="(2x^2y^5)/(2x^3y^3)" name="FadedExample3" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 1.brd" description="(6x^3y^3)/(4x^5y^2)" student_interface="8-23.swf" label="(6x^3y^3)/(4x^5y^2)" name="Problem 1" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 2.brd" description="(3x^3y^5)/(3x^2y^3)" student_interface="8-23.swf" label="(3x^3y^5)/(3x^2y^3)" name="Problem 2" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 3.brd" description="(5x^4y^4)/(y^2)" student_interface="8-23.swf" label="(5x^4y^4)/(y^2)" name="Problem 3" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 4.brd" description="(7x^3y^4)/(x^3y^3)" student_interface="8-23.swf" label="(7x^3y^4)/(x^3y^3)" name="Problem 4" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 5.brd" description="(2x^5y^6)/(5x^4y^6)" student_interface="8-23.swf" label="(2x^5y^6)/(5x^4y^6)" name="Problem 5" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 6.brd" description="(4x^4y^4)/(x^6)" student_interface="8-23.swf" label="(4x^4y^4)/(x^6)" name="Problem 6" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+    <Problem selection_features="" problem_file="Problem 7.brd" description="(x^2y^2)/(x^2y^3)" student_interface="8-23.swf" label="(x^2y^2)/(x^2y^3)" name="Problem 7" student_interface_class="" tutor_flag="tutor" team_role="0">
+      <Skills>
+      </Skills>
+    </Problem>
+  </Problems>
+  <Categories>
+    <Collection category="" description="Released Problem Sets" parent_category="" label="Released Problem Sets" parent_name="" name="general"/>
+    <Standard category="standard" description="PA Assessment Anchors" parent_category="" label="PA Assessment Anchors" parent_name="" name="PA"/>
+    <Standard category="standard" description="NCTM Curriculum Focal Points" parent_category="" label="NCTM Curriculum Focal Points" parent_name="" name="NCTM"/>
+    <Standard category="standard" description="Common Core Standards" parent_category="" label="Common Core Standards" parent_name="" name="CommonCore"/>
+    <Standard category="standard" description="Student Standards" parent_category="" label="Problem Set Categories" parent_name="" name="Student"/>
+    <Grade category="" description="8th Grade" parent_category="" label="8th Grade" parent_name="" name="8"/>
+    <Standard category="reporting_category" description="A. Numbers and Operations" parent_category="standard" label="A. Numbers and Operations" parent_name="PA" name="PA.A"/>
+    <Standard category="assessment_anchor" description="A.2. Understand the meanings of operations, use operations and understand how they relate to each other." parent_category="reporting_category" label="A.2. Operations: Meanings, Uses and Relationships" parent_name="PA.A" name="PA.A.2"/>
+    <Standard category="strand" description="B. Algebra" parent_category="standard" label="B. Algebra" parent_name="NCTM" name="NCTM.B"/>
+    <Standard category="grade_level" description="8th Grade" parent_category="standard" label="8th Grade" parent_name="CommonCore" name="CommonCore.8"/>
+    <Standard category="strand" description="8.EE. Expressions and Equations" parent_category="grade_level" label="8.EE. Expressions and Equations" parent_name="CommonCore.8" name="CommonCore.8.EE"/>
+    <Standard category="strand" description="Working with Exponents" parent_category="standard" label="Working with Exponents" parent_name="Student" name="Student.WE"/>
+  </Categories>
+  <Skills>
+  </Skills>
+  <Assets>
+  </Assets>
+</ProblemSet>

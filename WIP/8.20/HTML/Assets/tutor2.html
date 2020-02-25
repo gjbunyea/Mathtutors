@@ -1,0 +1,161 @@
+<!DOCTYPE html lang="en-US">
+
+<head height=50%>
+  <title>Tutor</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.ctat.cs.cmu.edu/releases/beta/CTAT.css">
+  <link rel="stylesheet" type="text/css" href="Assets/overlaid.css">
+
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/beta/jquery.min.js"></script>
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/beta/ctat.min.js"></script>
+  <script src="https://cdn.ctat.cs.cmu.edu/releases/beta/ctatloader.js"></script>
+
+  <style>
+    #questions {
+      display: inline-block;
+    }
+
+    #imagesSection {
+      margin-left: 100px;
+      margin-top: 25px;
+    }
+
+    .CTATProblem,
+    .CTATSolution {
+      margin-top: 15px;
+      border: 0px;
+      flex: 0.3;
+      text-align: center;
+    }
+
+    #statement{
+      font-size: large;
+      padding: 5%;
+    }
+
+    .CTATHints,
+    .CTATSkills {
+      display: flex;
+      flex-grow: 1;
+      flex-flow: row;
+    }
+
+    .CTATTutor {
+      flex-wrap: wrap;
+    }
+
+    .table,
+    th,
+    td {
+      text-align:center;
+      border: none;
+      border-collapse: collapse;
+      padding-bottom: 2em;
+    }
+
+    .CTATTools {
+      width: 100%;
+      position: fixed;
+      bottom: 0px;
+    }
+
+    .CTATTextInput{
+      width: 125px;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="CTATTutor">
+    
+    <section id="problemSolution" style="display:flex;flex-flow: column;">
+
+      <section class="CTATProblem">
+        <div id="statement" class="CTATTextField">
+          <h2>Problem Statement</h2>
+        </div>
+      </section>
+
+      <section id="solution" class="CTATSolution" style="margin: auto;">
+
+        <table>
+          <tr>
+            <th style="width:30%">Exponent Form</th>
+            <th style="width:30%">Expansion Form</th>
+            <th style="width:30%">Value</th>
+          </tr>
+          <tr>
+            <td>
+              <div id="Exponent-1" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Expansion-1" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Value-1" class="CTATTextInput"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="Exponent-2" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Expansion-2" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Value-2" class="CTATTextInput"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="Exponent-3" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Expansion-3" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Value-3" class="CTATTextInput"></div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="Exponent-4" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Expansion-4" class="CTATTextInput"></div>
+            </td>
+            <td>
+              <div id="Value-4" class="CTATTextInput"></div>
+            </td>
+          </tr>
+
+        </table>
+        <section class="CTATProblemSolving">
+
+          <section class="CTATQuestion">
+            <div id="questions">
+              <div id='q1' class="CTATTextField"></div>
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <section class="CTATTools">
+
+      <section class="CTATHints" style="width: 50%;">
+        <div class="CTATButtons">
+          <div class="CTATHintButton"></div>
+          <div class="CTATDoneButton"></div>
+        </div>
+        <div class="CTATHintWindow"></div>
+      </section>
+
+      <section class="CTATSkills" style="width: 50%;">
+        <div class="CTATSkillWindow"></div>
+      </section>
+    </section>
+  </main>
+</body>
+
+</html>

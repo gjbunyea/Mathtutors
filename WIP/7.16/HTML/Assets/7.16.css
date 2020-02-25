@@ -1,0 +1,46 @@
+#images {
+	width:383px;
+	height:285px;
+}
+#questions{
+	margin-left:100px;
+}
+#questions {
+	display:inline-block;
+  }
+
+#imagesSection {
+	margin-left:100px;
+	margin-top:25px;
+}
+
+.CTATProblem, .CTATSolution{ 
+font-size: 14px;
+margin-top: 15px;
+border: 0px;
+flex: 0.4;
+}
+
+.CTATHints, .CTATSkills{
+display: flex;
+flex-grow: 1;
+flex-flow: row;
+}
+
+.CTATTutor{
+flex-wrap:nowrap;
+justify-content: center;
+
+}
+
+.table, th, td {
+	border-collapse: collapse;
+}
+
+tbody{
+	padding: 10px;
+}
+
+font{
+	font-size: 12px;
+}
