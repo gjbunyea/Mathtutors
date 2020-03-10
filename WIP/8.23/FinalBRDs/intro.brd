@@ -1,10 +1,10 @@
-<stateGraph caseInsensitive="true" firstCheckAllStates="true" highlightRightSelection="true" lockWidget="true" startStateNodeName="go" suppressStudentFeedback="false" unordered="false" version="2.1">
+<stateGraph caseInsensitive="true" firstCheckAllStates="true" highlightRightSelection="true" lockWidget="true" startStateNodeName="state24" suppressStudentFeedback="false" unordered="false" version="2.1">
     <startNodeMessages>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
-                <ProblemName>Problem 6</ProblemName>
+                <ProblemName>intro</ProblemName>
             </properties>
         </message>
         <message>
@@ -19,7 +19,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>3</value>
                 </Input>
             </properties>
         </message>
@@ -35,7 +35,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>3</value>
                 </Input>
             </properties>
         </message>
@@ -51,7 +51,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>x^4</value>
+                    <value>x^2</value>
                 </Input>
             </properties>
         </message>
@@ -67,7 +67,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>x^4</value>
+                    <value>x^2</value>
                 </Input>
             </properties>
         </message>
@@ -83,7 +83,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>y^3</value>
                 </Input>
             </properties>
         </message>
@@ -99,7 +99,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>1</value>
+                    <value>y^3</value>
                 </Input>
             </properties>
         </message>
@@ -115,7 +115,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>4x^4 y^4</value>
+                    <value>9x^2 y^5</value>
                 </Input>
             </properties>
         </message>
@@ -131,7 +131,7 @@
                     <value>UpdateTextField</value>
                 </Action>
                 <Input>
-                    <value>x^6</value>
+                    <value>3x^3 y^3</value>
                 </Input>
             </properties>
         </message>
@@ -143,7 +143,7 @@
         </message>
     </startNodeMessages>
     <node doneState="false" locked="false">
-        <text>Problem 6</text>
+        <text>intro</text>
         <uniqueID>1</uniqueID>
         <dimension>
             <x>410</x>
@@ -410,13 +410,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>x^4</value>
+                        <value>x^2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Type x^4 in the field.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -424,7 +424,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">x_num1</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">x^4</matcherParameter>
+                <matcherParameter name="input">x^2</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -464,13 +464,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>y^4</value>
+                        <value>y^5</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Type y^4 in the field.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -478,7 +478,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">y_num1</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">y^4</matcherParameter>
+                <matcherParameter name="input">y^5</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -518,13 +518,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>6</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Type 1 in the field.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -532,7 +532,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">cf_den1</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">1</matcherParameter>
+                <matcherParameter name="input">6</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -572,13 +572,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>x^6</value>
+                        <value>x^3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Type x^6 in the field.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -586,7 +586,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">x_den1</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">x^6</matcherParameter>
+                <matcherParameter name="input">x^3</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -626,13 +626,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>y^3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Type 1 in the field.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -640,7 +640,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">y_den1</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">1</matcherParameter>
+                <matcherParameter name="input">y^3</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -680,15 +680,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Find the most appropriate common factor between the numerator and denominator above in the constant factors.</hintMessage>
-            <hintMessage>The most appropriate common factor is the divisor that will simplify the fraction completely and make the denominator positive.</hintMessage>
-            <hintMessage>1 goes into 4 and 1 and is the most appropriate common factor.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -696,7 +696,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">comfac_num</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">1</matcherParameter>
+                <matcherParameter name="input">3</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -736,16 +736,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>x^4</value>
+                        <value>x^2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Find the most appropriate common factor between the numerator and denominator above in the x factors.</hintMessage>
-            <hintMessage>The most appropriate common factor is the divisor that will simplify the fraction completely and make the denominator positive.</hintMessage>
-            <hintMessage>In x^4, how many times is x used as a factor? In x^6, how many times is x used as a factor? How many x's do they have in common?</hintMessage>
-            <hintMessage>x^4 goes into x^4 and x^6 and is the most appropriate common factor.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -753,7 +753,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">comfac_x</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">x^4</matcherParameter>
+                <matcherParameter name="input">x^2</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -793,16 +793,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>y^3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Find the most appropriate common factor between the numerator and denominator above in the y factors.</hintMessage>
-            <hintMessage>The most appropriate common factor is the divisor that will simplify the fraction completely and make the denominator positive.</hintMessage>
-            <hintMessage>In y^4, how many times is y used as a factor? In 1, how many times is y used as a factor? How many y's do they have in common?</hintMessage>
-            <hintMessage>1 goes into y^4 and 1 and is the most appropriate common factor.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -810,7 +810,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">comfac_y</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">1</matcherParameter>
+                <matcherParameter name="input">y^3</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -854,9 +854,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>You've completed the problem correctly. Click on the 'done' button to move on!</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -904,13 +904,13 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>4</value>
+                        <value>9</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Type 4 in the field.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -918,7 +918,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">cf_num1</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">4</matcherParameter>
+                <matcherParameter name="input">9</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -961,9 +961,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1028,9 +1028,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1095,9 +1095,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1159,15 +1159,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>1</value>
+                        <value>2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>To determine the simplified denominator, divide the original denominator by the most appropriate common factor.</hintMessage>
-            <hintMessage>Divide the unsimplified denominator, 1, by 1, the common factor.</hintMessage>
-            <hintMessage>Type 1 in the denominator.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1175,7 +1175,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">cf_den2</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">1</matcherParameter>
+                <matcherParameter name="input">2</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -1215,15 +1215,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>x^2</value>
+                        <value>x</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>To determine the simplified denominator, divide the original denominator by the most appropriate common factor.</hintMessage>
-            <hintMessage>Divide the unsimplified denominator, x^6, by x^4, the common factor.</hintMessage>
-            <hintMessage>Type x^2 in the denominator.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1231,7 +1231,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">x_den2</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">x^2</matcherParameter>
+                <matcherParameter name="input">x</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -1275,11 +1275,11 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>To determine the simplified denominator, divide the original denominator by the most appropriate common factor.</hintMessage>
-            <hintMessage>Divide the unsimplified denominator, 1, by 1, the common factor.</hintMessage>
-            <hintMessage>Type 1 in the denominator.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1330,9 +1330,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1398,12 +1398,12 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>To determine the simplified numerator, divide the original numerator by the most appropriate common factor.</hintMessage>
-            <hintMessage>Divide the unsimplified numerator, x^4, by x^4, the common factor.</hintMessage>
-            <hintMessage>Since both are x factors, subtract the exponent of the common factor from the exponent of the original x factor. Remember that 1=x^0 (exponent is zero).</hintMessage>
-            <hintMessage>Type 1 in the numerator.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1454,9 +1454,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1518,16 +1518,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>y^4</value>
+                        <value>y^2</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>To determine the simplified numerator, divide the original numerator by the most appropriate common factor.</hintMessage>
-            <hintMessage>Divide the unsimplified numerator, y^4, by 1, the common factor.</hintMessage>
-            <hintMessage>Since both are y factors, subtract the exponent of the common factor from the exponent of the original y factor. Remember that 1=y^0 (exponent is zero).</hintMessage>
-            <hintMessage>Type y^4 in the numerator.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1535,7 +1535,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">y_num2</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">y^4</matcherParameter>
+                <matcherParameter name="input">y^2</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -1578,9 +1578,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1642,15 +1642,15 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>4</value>
+                        <value>3</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>To determine the simplified numerator, divide the original numerator by the most appropriate common factor.</hintMessage>
-            <hintMessage>Divide the unsimplified numerator, 4, by 1, the common factor.</hintMessage>
-            <hintMessage>Type 4 in the numerator.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1658,7 +1658,7 @@
                 <matcherType>ExactMatcher</matcherType>
                 <matcherParameter name="selection">cf_num2</matcherParameter>
                 <matcherParameter name="action">UpdateTextField</matcherParameter>
-                <matcherParameter name="input">4</matcherParameter>
+                <matcherParameter name="input">3</matcherParameter>
                 <matcherParameter name="actor">Student</matcherParameter>
             </matcher>
             <dimension>
@@ -1701,9 +1701,9 @@
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1765,16 +1765,16 @@
                         <value>UpdateTextField</value>
                     </Action>
                     <Input>
-                        <value>(4*1*y^4)/(1*x^2*1)</value>
+                        <value>(3*1*y^2)/(2*x*1)</value>
                     </Input>
                 </properties>
             </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
+            <buggyMessage></buggyMessage>
             <successMessage />
-            <hintMessage>Multiply the simplified form all together to generate the simplified fraction.</hintMessage>
-            <hintMessage>Write the numerator of the simplified form, then a slash (&quot;/&quot;) for the horizontal fraction line, then the denominator of the simplified form.</hintMessage>
-            <hintMessage>Use parentheses &quot;()&quot; around the denominator terms to ensure that the division operation (&quot;/&quot;) is performed last.</hintMessage>
-            <hintMessage>Type &lt;%=simplify(&quot;(4*1*y^4)/(1*x^2*1)&quot;)%&gt; in the result box.</hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
+            <hintMessage></hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -1794,7 +1794,7 @@
                 <Input>
                     <matcher>
                         <matcherType>ExpressionMatcher</matcherType>
-                        <matcherParameter name="InputExpression">and(expressionMatches(replaceAll(input,"\s",""), "(4*1*y^4)/(1*x^2*1)"),isSimplified(replaceAll(input,"\s","")))</matcherParameter>
+                        <matcherParameter name="InputExpression">and(expressionMatches(replaceAll(input,"\s",""), "(3*1*y^2)/(2*x*1)"),isSimplified(replaceAll(input,"\s","")))</matcherParameter>
                         <matcherParameter name="relation">boolean</matcherParameter>
                     </matcher>
                 </Input>

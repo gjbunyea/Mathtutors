@@ -1,282 +1,10 @@
-<?xml version="1.0" standalone="yes"?>
-
-<stateGraph firstCheckAllStates="true" caseInsensitive="true" unordered="false" lockWidget="true" version="2.1" suppressStudentFeedback="false" highlightRightSelection="true" startStateNodeName="go">
+<stateGraph caseInsensitive="true" firstCheckAllStates="true" highlightRightSelection="true" lockWidget="true" startStateNodeName="go" suppressStudentFeedback="false" unordered="false" version="2.1">
     <startNodeMessages>
         <message>
             <verb>NotePropertySet</verb>
             <properties>
                 <MessageType>StartProblem</MessageType>
                 <ProblemName>Problem 5</ProblemName>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>result</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name result)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>comfac_x</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name comfac_x)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>comfac_y</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name comfac_y)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>comfac_num</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name comfac_num)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>x_den2</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name x_den2)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>y_den2</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name y_den2)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>cf_den2</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name cf_den2)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>x_num2</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name x_num2)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>y_num2</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name y_num2)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>cf_num2</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name cf_num2)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>x_den1</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name x_den1)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>y_den1</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name y_den1)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>cf_den1</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name cf_den1)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>denominator</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name denominator)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>x_num1</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name x_num1)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>y_num1</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name y_num1)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>cf_num1</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name cf_num1)))</value>
-                </jessInstances>
-            </properties>
-        </message>
-        <message>
-            <verb>SendNoteProperty</verb>
-            <properties>
-                <MessageType>InterfaceDescription</MessageType>
-                <WidgetType>commTextInput</WidgetType>
-                <DorminName>numerator</DorminName>
-                <UpdateEachCycle>false</UpdateEachCycle>
-                <jessDeftemplates>
-                    <value>(deftemplate textInput (slot name) (slot value))</value>
-                </jessDeftemplates>
-                <jessInstances>
-                    <value>(assert ( textInput (name numerator)))</value>
-                </jessInstances>
             </properties>
         </message>
         <message>
@@ -414,7 +142,7 @@
             </properties>
         </message>
     </startNodeMessages>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>Problem 5</text>
         <uniqueID>1</uniqueID>
         <dimension>
@@ -424,7 +152,7 @@
             <height>25</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state1</text>
         <uniqueID>2</uniqueID>
         <dimension>
@@ -434,7 +162,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state2</text>
         <uniqueID>3</uniqueID>
         <dimension>
@@ -444,7 +172,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state3</text>
         <uniqueID>4</uniqueID>
         <dimension>
@@ -454,7 +182,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state4</text>
         <uniqueID>5</uniqueID>
         <dimension>
@@ -464,7 +192,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state5</text>
         <uniqueID>6</uniqueID>
         <dimension>
@@ -474,7 +202,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state6</text>
         <uniqueID>7</uniqueID>
         <dimension>
@@ -484,7 +212,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state7</text>
         <uniqueID>8</uniqueID>
         <dimension>
@@ -494,7 +222,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state8</text>
         <uniqueID>9</uniqueID>
         <dimension>
@@ -504,7 +232,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state9</text>
         <uniqueID>10</uniqueID>
         <dimension>
@@ -514,7 +242,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state10</text>
         <uniqueID>11</uniqueID>
         <dimension>
@@ -524,7 +252,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state11</text>
         <uniqueID>12</uniqueID>
         <dimension>
@@ -534,7 +262,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state12</text>
         <uniqueID>13</uniqueID>
         <dimension>
@@ -544,7 +272,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state13</text>
         <uniqueID>14</uniqueID>
         <dimension>
@@ -554,7 +282,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state14</text>
         <uniqueID>15</uniqueID>
         <dimension>
@@ -564,7 +292,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state15</text>
         <uniqueID>16</uniqueID>
         <dimension>
@@ -574,7 +302,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state16</text>
         <uniqueID>17</uniqueID>
         <dimension>
@@ -584,7 +312,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="true">
+    <node doneState="true" locked="false">
         <text>Done</text>
         <uniqueID>18</uniqueID>
         <dimension>
@@ -594,7 +322,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>go</text>
         <uniqueID>19</uniqueID>
         <dimension>
@@ -604,7 +332,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state19</text>
         <uniqueID>20</uniqueID>
         <dimension>
@@ -614,7 +342,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state20</text>
         <uniqueID>21</uniqueID>
         <dimension>
@@ -624,7 +352,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state21</text>
         <uniqueID>22</uniqueID>
         <dimension>
@@ -634,7 +362,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state22</text>
         <uniqueID>23</uniqueID>
         <dimension>
@@ -644,7 +372,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state23</text>
         <uniqueID>24</uniqueID>
         <dimension>
@@ -654,7 +382,7 @@
             <height>20</height>
         </dimension>
     </node>
-    <node locked="false" doneState="false">
+    <node doneState="false" locked="false">
         <text>state24</text>
         <uniqueID>25</uniqueID>
         <dimension>
@@ -665,10 +393,10 @@
         </dimension>
     </node>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>3</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -687,7 +415,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Type x^5 in the field.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -716,13 +444,13 @@
         <sourceID>2</sourceID>
         <destID>3</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>5</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -741,7 +469,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Type y^6 in the field.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -770,13 +498,13 @@
         <sourceID>3</sourceID>
         <destID>4</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>7</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -795,7 +523,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Type 5 in the field.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -824,13 +552,13 @@
         <sourceID>4</sourceID>
         <destID>5</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>9</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -849,7 +577,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Type x^4 in the field.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -878,13 +606,13 @@
         <sourceID>5</sourceID>
         <destID>6</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>11</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -903,7 +631,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Type y^6 in the field.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -932,13 +660,13 @@
         <sourceID>6</sourceID>
         <destID>7</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>13</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -957,7 +685,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Find the most appropriate common factor between the numerator and denominator above in the constant factors.</hintMessage>
             <hintMessage>The most appropriate common factor is the divisor that will simplify the fraction completely and make the denominator positive.</hintMessage>
             <hintMessage>1 goes into 2 and 5 and is the most appropriate common factor.</hintMessage>
@@ -988,13 +716,13 @@
         <sourceID>7</sourceID>
         <destID>8</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>15</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1013,7 +741,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Find the most appropriate common factor between the numerator and denominator above in the x factors.</hintMessage>
             <hintMessage>The most appropriate common factor is the divisor that will simplify the fraction completely and make the denominator positive.</hintMessage>
             <hintMessage>In x^5, how many times is x used as a factor? In x^4, how many times is x used as a factor? How many x's do they have in common?</hintMessage>
@@ -1045,13 +773,13 @@
         <sourceID>8</sourceID>
         <destID>9</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>17</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1070,7 +798,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Find the most appropriate common factor between the numerator and denominator above in the y factors.</hintMessage>
             <hintMessage>The most appropriate common factor is the divisor that will simplify the fraction completely and make the denominator positive.</hintMessage>
             <hintMessage>In y^6, how many times is y used as a factor? In y^6, how many times is y used as a factor? How many y's do they have in common?</hintMessage>
@@ -1102,13 +830,13 @@
         <sourceID>9</sourceID>
         <destID>10</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>33</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1127,7 +855,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>You've completed the problem correctly. Click on the 'done' button to move on!</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1156,13 +884,13 @@
         <sourceID>17</sourceID>
         <destID>18</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>1</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1181,7 +909,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Type 2 in the field.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1210,13 +938,13 @@
         <sourceID>19</sourceID>
         <destID>2</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>38</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1234,7 +962,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1277,13 +1005,13 @@
         <sourceID>1</sourceID>
         <destID>20</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>35</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1301,7 +1029,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1344,13 +1072,13 @@
         <sourceID>20</sourceID>
         <destID>19</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>41</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1368,7 +1096,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1411,13 +1139,13 @@
         <sourceID>10</sourceID>
         <destID>21</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>25</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1436,7 +1164,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To determine the simplified denominator, divide the original denominator by the most appropriate common factor.</hintMessage>
             <hintMessage>Divide the unsimplified denominator, 5, by 1, the common factor.</hintMessage>
             <hintMessage>Type 5 in the denominator.</hintMessage>
@@ -1467,13 +1195,13 @@
         <sourceID>11</sourceID>
         <destID>14</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>27</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1492,7 +1220,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To determine the simplified denominator, divide the original denominator by the most appropriate common factor.</hintMessage>
             <hintMessage>Divide the unsimplified denominator, x^4, by x^4, the common factor.</hintMessage>
             <hintMessage>Type 1 in the denominator.</hintMessage>
@@ -1523,13 +1251,13 @@
         <sourceID>12</sourceID>
         <destID>15</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>29</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1548,7 +1276,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To determine the simplified denominator, divide the original denominator by the most appropriate common factor.</hintMessage>
             <hintMessage>Divide the unsimplified denominator, y^6, by y^6, the common factor.</hintMessage>
             <hintMessage>Type 1 in the denominator.</hintMessage>
@@ -1579,13 +1307,13 @@
         <sourceID>13</sourceID>
         <destID>16</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>49</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1603,7 +1331,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1646,13 +1374,13 @@
         <sourceID>14</sourceID>
         <destID>22</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>21</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1671,7 +1399,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To determine the simplified numerator, divide the original numerator by the most appropriate common factor.</hintMessage>
             <hintMessage>Divide the unsimplified numerator, x^5, by x^4, the common factor.</hintMessage>
             <hintMessage>Since both are x factors, subtract the exponent of the common factor from the exponent of the original x factor. </hintMessage>
@@ -1703,13 +1431,13 @@
         <sourceID>22</sourceID>
         <destID>12</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>53</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1727,7 +1455,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1770,13 +1498,13 @@
         <sourceID>15</sourceID>
         <destID>23</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>23</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1795,7 +1523,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To determine the simplified numerator, divide the original numerator by the most appropriate common factor.</hintMessage>
             <hintMessage>Divide the unsimplified numerator, y^6, by y^6, the common factor.</hintMessage>
             <hintMessage>Since both are y factors, subtract the exponent of the common factor from the exponent of the original y factor. Remember that 1=y^0 (exponent is zero).</hintMessage>
@@ -1827,13 +1555,13 @@
         <sourceID>23</sourceID>
         <destID>13</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="0" maxTraversals="0">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="0" minTraversals="0" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>57</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1851,7 +1579,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -1894,13 +1622,13 @@
         <sourceID>21</sourceID>
         <destID>24</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>19</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -1919,7 +1647,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>To determine the simplified numerator, divide the original numerator by the most appropriate common factor.</hintMessage>
             <hintMessage>Divide the unsimplified numerator, 2, by 1, the common factor.</hintMessage>
             <hintMessage>Type 2 in the numerator.</hintMessage>
@@ -1950,13 +1678,13 @@
         <sourceID>24</sourceID>
         <destID>11</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>60</uniqueID>
             <message>
                 <verb>SendNoteProperty</verb>
@@ -1974,7 +1702,7 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Please provide your answer 'No_Value' in the highlighted element.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
@@ -2017,13 +1745,13 @@
         <sourceID>16</sourceID>
         <destID>25</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
+        <actionLabel maxTraversals="1" minTraversals="1" preferPathMark="true">
+            <studentHintRequest />
+            <stepSuccessfulCompletion />
+            <stepStudentError />
             <uniqueID>31</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
@@ -2042,11 +1770,11 @@
                 </properties>
             </message>
             <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
+            <successMessage />
             <hintMessage>Multiply the simplified form all together to generate the simplified fraction.</hintMessage>
-            <hintMessage>Write the numerator of the simplified form, then a slash ("/") for the horizontal fraction line, then the denominator of the simplified form.</hintMessage>
-            <hintMessage>Use parentheses "()" around the denominator terms to ensure that the division operation ("/") is performed last.</hintMessage>
-            <hintMessage>Type &lt;%=simplify("(2*x*1)/(5*1*1)")%&gt; in the result box.</hintMessage>
+            <hintMessage>Write the numerator of the simplified form, then a slash (&quot;/&quot;) for the horizontal fraction line, then the denominator of the simplified form.</hintMessage>
+            <hintMessage>Use parentheses &quot;()&quot; around the denominator terms to ensure that the division operation (&quot;/&quot;) is performed last.</hintMessage>
+            <hintMessage>Type &lt;%=simplify(&quot;(2*x*1)/(5*1*1)&quot;)%&gt; in the result box.</hintMessage>
             <actionType>Correct Action</actionType>
             <oldActionType>Correct Action</oldActionType>
             <checkedStatus>Never Checked</checkedStatus>
@@ -2089,28 +1817,27 @@
         <sourceID>25</sourceID>
         <destID>17</destID>
         <traversalCount>0</traversalCount>
-        <SimSt></SimSt>
+        <SimSt />
     </edge>
     <EdgesGroups ordered="true">
         <group name="common factor" ordered="false" reenterable="true">
-            <link id="15"/>
-            <link id="17"/>
-            <link id="13"/></group>
+            <link id="15" />
+            <link id="17" />
+            <link id="13" /></group>
         <group name="constant factors" ordered="false" reenterable="true">
-            <link id="7"/>
-            <link id="9"/>
-            <link id="11"/>
-            <link id="5"/>
-            <link id="3"/></group>
+            <link id="7" />
+            <link id="9" />
+            <link id="11" />
+            <link id="5" />
+            <link id="3" /></group>
         <group name="simplified form" ordered="false" reenterable="true">
-            <link id="29"/>
-            <link id="53"/>
-            <link id="49"/>
-            <link id="19"/>
-            <link id="25"/>
-            <link id="21"/>
-            <link id="27"/>
-            <link id="23"/></group>
+            <link id="29" />
+            <link id="53" />
+            <link id="49" />
+            <link id="19" />
+            <link id="25" />
+            <link id="21" />
+            <link id="27" />
+            <link id="23" /></group>
     </EdgesGroups>
 </stateGraph>
-

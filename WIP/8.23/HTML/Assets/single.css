@@ -71,15 +71,3 @@ button.CTAT-done-button {
   font-size: 44px;
   font-weight: bold;
 }
-.CTATHints,
-.CTATSkills {
-  display: flex;
-  flex-grow: 1;
-  flex-flow: row;
-}
-
-.CTATTools {
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-}
